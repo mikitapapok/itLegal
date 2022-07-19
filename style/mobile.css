@@ -1,0 +1,87 @@
+@media screen and (min-width: 250px) and (max-width: 768px){
+    .navigator-list{
+        display: none;
+    }
+    .burger-menu{
+        display: block;
+    }
+    .sidebar-content{
+        display: block;
+        display: flex;
+        position: sticky;
+        top: 0;
+        flex-direction: column;
+
+    }
+    .sidebar-navigator{
+        margin-left: auto;
+        margin-top: 140px;
+    }
+    .sidebar-navigator-list{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    .sidebar-navigator-list__component:nth-child(2){
+        margin-top: 40px;
+    }
+    .sidebar-navigator-link{
+        text-decoration: none;
+        font-size: 25px;
+        color: white;
+    }
+
+    .sheet{
+        display: block;
+        position: absolute;
+        top:0;
+        background-color: black;
+        opacity: 0.5;
+        width: 100%;
+        height: 100%;
+    }
+
+    .sidebar{
+        position: absolute;
+        right: 0;
+        top: 0;
+        background-image: linear-gradient(to right, #f75900 , #000000);
+        padding: 10px 10px;
+        width: 50%;
+        height: 100%;
+    }
+    .sidebar-display{
+        display: none;
+    }
+    .sheet-no-display{
+        display: none;
+        width: 0;
+    }
+    .close-sidebar{
+        display: block;
+        outline: none;
+        border: none;
+        background: none;
+        margin-left: auto;
+
+    }
+    .close-sidebar-button{
+        cursor: pointer;
+    }
+
+    .content-about{
+        flex-direction: column;
+    }
+    .content-about-text{
+        width: 100%;
+        padding: 20px;
+        transform: skew(0deg);
+    }
+    .content-about-text p{
+        font-size: 14px;
+        transform: skew(0deg);
+    }
+    .content-about-contacts{
+        margin-top: 30px;
+    }
+}
