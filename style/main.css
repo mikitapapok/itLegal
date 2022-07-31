@@ -1,109 +1,197 @@
-body{
+body {
     background: black;
 }
 
-
-.header{
+.header {
     padding: 10px;
     display: flex;
     justify-content: center;
 }
-.wrapper{
-    width:90%;
-    padding:10px;
+
+.wrapper {
+    width: 90%;
+    padding: 10px;
     display: flex;
     align-items: center;
-
 }
 
-.header-navigator{
+.header-navigator {
     margin-left: 20%;
 }
-.header-navigator-list__component{
-    white-space: nowrap;
 
+.header-navigator-list__component {
+    white-space: nowrap;
 }
 
-.header-navigator-list__component:nth-child(2){
+.header-navigator-list__component:nth-child(2) {
     margin-left: 75%;
 }
-.header-navigator-link{
+
+.header-navigator-link {
     display: inline-block;
     text-decoration: none;
     font-size: 20px;
     color: #f75900;
     transition: 0.5s;
 }
-.header-navigator-link:hover{
-    color:white;
+
+.header-navigator-link:hover {
+    color: white;
     transform: scale(1.2);
 }
-.burger-menu{
+
+.burger-menu {
     margin-left: auto;
     display: none;
 }
 
-.sidebar-display{
+.sidebar-display {
     display: none;
     transition: 0.5s;
 }
-.sheet-no-display{
+
+.sheet-no-display {
     display: none;
     width: 0;
     transition: 0.5s;
 }
-.sidebar-content{
+
+.sidebar-content {
     display: none;
 }
-.sidebar-navigator-display{
+
+.sidebar-navigator-display {
     display: none;
 }
-.content{
+
+.content {
     margin-top: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center ;
+    align-items: center;
 }
-.content-about{
+
+.content-about {
     display: flex;
     align-items: start;
 }
-.content-about-text{
+
+.content-about-text {
+    -webkit-font-smoothing: antialiased;
     width: 850px;
     text-align: center;
     padding: 20px 40px;
     transform: skew(20deg);
     background: #f75900;
 }
-.content-about-text p{
-    color:white;
+
+.content-about-text p {
+    color: white;
     font-size: 24px;
     transform: skew(-20deg);
 }
-.content-about-contacts{
+
+.content-about-contacts {
     margin-left: 9%;
 }
-.content-about-contacts-list{
+
+.content-about-contacts-list {
     display: flex;
     flex-direction: column;
     align-items: start;
 }
-.content-about-contact-list-title{
-    color:white;
+
+.content-about-contact-list-title {
+    color: white;
     font-size: 30px;
 }
-.content-about-contacts-list__component{
+
+.content-about-contacts-list__component {
     margin-top: 20px;
     display: flex;
     align-items: center;
 }
-.content-about-contacts-list-link{
+
+.content-about-contacts-list-link {
     margin-left: 3%;
     text-decoration: none;
     color: white;
 }
-.content-about-contacts-list-link__component{
+
+.content-about-contacts-list-link__component {
     margin-left: 15%;
     white-space: nowrap;
+}
+
+.services {
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.services-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services-description-title {
+    color: #f75900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 32px;
+}
+
+.services-description-text {
+    margin-top: 60px;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    line-height: 35px;
+    width: 70%;
+}
+
+.services-container {
+    margin-top: 80px;
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*grid-template-rows:auto;*/
+    /*grid-column-gap: 5%;*/
+    /*grid-row-gap: 5%;*/
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.services-container__component {
+    padding: 20px;
+    margin: 20px;
+    transform: skew(-8deg, 0deg);
+    border-radius: 10px;
+    background-color: antiquewhite;
+    transition: 0.5s transform;
+    width: fit-content;
+
+}
+
+.services-container__component:hover {
+    transform: skew(0deg);
+}
+
+.services-container-description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.service-container-description-text {
+    width: 350px;
+    margin-top: 40px;
+    text-align: center;
+    font-size: 18px;
+    color: #333333;
 }
