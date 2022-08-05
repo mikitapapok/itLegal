@@ -195,3 +195,77 @@ body {
     font-size: 18px;
     color: #000000;
 }
+
+.ip {
+    display: flex;
+    align-items: start;
+}
+
+.ip-card {
+    border-radius: 10px;
+    background-color: white;
+    padding: 10px;
+
+}
+
+.ip__component:nth-child(2) {
+    margin-left: 50px;
+}
+
+.ip-card-table {
+    padding: 10px;
+}
+
+.ip-card-table-title__component {
+    width: 345px;
+    text-align: center;
+
+}
+
+.ip-card-table-price {
+    text-align: center;
+}
+
+.ip-card-table-price__component {
+    padding-top: 10px;
+    font-size: 30px;
+    color: #333333;
+}
+
+.ip-card-table-description {
+
+}
+
+.ip-card-table-description-text {
+    margin-left: 30px;
+}
+
+.ip-card-table-description-text-list {
+    list-style: inside;
+    flex-direction: column;
+    align-items: start;
+    display: flex;
+}
+
+.ip-card-table-description-text-list__component {
+    width: 450px;
+    margin-top: 10px;
+    text-align: start;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+
+.ip-card-table-description-subtitle {
+    margin-left: 80px;
+    color: #333333;
+    font-size: 23px;
+    margin-top: 20px;
+}
+
+.ip-card-table-description-footer-description {
+    padding-top: 30px;
+    color: #333333;
+    font-size: 18px;
+}
+
